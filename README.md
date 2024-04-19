@@ -1,5 +1,5 @@
 # Bar Surfing
-Test particle simulation to understand if a cluster can survive being at a stable Lagrange point.
+Test particle simulation to understand if a cluster can survive being at a stable Lagrange point as it moves outward towards the solar circle.
 
 The animation for a cluster shifted to be at the L4/5 (if a bar pertubation was to be added) integrated over the:
 
