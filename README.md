@@ -22,3 +22,5 @@ Milky Way, Dehnen Bar, and Plummer potentials (MBP simulation):
 https://github.com/oliviamcauley/Bar_Surfing/assets/54736303/1dfc3554-8ead-4ade-b00f-0e3016eadd84
 
 [MS_224_8Gyr.mp4.zip](https://github.com/user-attachments/files/15855981/MS_224_8Gyr.mp4.zip)
+
+[MSP_224kms_4Gyr.mp4.zip](https://github.com/user-attachments/files/15979888/MSP_224kms_4Gyr.mp4.zip)
