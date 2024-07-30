@@ -16,7 +16,13 @@ Using **tracer particle simulations**, I want to answer the following questions:
 * Does the cluster survive the growth and deceleration of the bar?
   *  What percentage of stars remain in the cluster?
 ## Data Collection
-The data was created using <tt>[`galpy`](http://github.com/jobovy/galpy)</tt>. 
+The data was created using <tt>[`galpy`](http://github.com/jobovy/galpy)</tt>. The data consists of the Cartesian and cylindrical coordinates and their respective velocities of each particle in the cluster.
+* Cartesian coordinate (x, y, z)
+* Cartesian velocity (v<sub>x</sub>, v<sub>y</sub>, v<sub>z</sub>)
+* Cylindrical coodinate (R, $\phi$, z)
+* Cylindrical velocity (v<sub>R</sub>, v<sub>$\phi$</sub>, v<sub>z</sub>)
+
+The Jupyter notebook called McAuley_Run.ipynb in the 'McAuley_ClusterIC' folder gives the code that will produce the initial conditions (abbreviated as IC).
 ## Modeling Approach
 
 ## Conclusions and Future Directions
