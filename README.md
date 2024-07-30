@@ -9,9 +9,14 @@ This project used test particle simulations to understand if a cluster can survi
 5. [Description of Repository](#Description-of-Repository)
 
 ## Introduction
+Star clusters are classified as either open or globular clusters. The stars in these clusters have similar chemical components presumably due to the stars being born from the fragments of the same molecular cloud (Harris & Pudritz, 1994). The mass of clusters decrease over time due to evaporation (Binney & Tremaine, 2008). 
 
+Using **tracer particle simulations**, I want to answer the following questions:
+* Does the decelerating galactic bar affect the orbits of stars in these clusters?
+* Does the cluster survive the growth and deceleration of the bar?
+  *  What percentage of stars remain in the cluster?
 ## Data Collection
-
+The data was created using <tt>[`galpy`](http://github.com/jobovy/galpy)</tt>. 
 ## Modeling Approach
 
 ## Conclusions and Future Directions
