@@ -15,6 +15,7 @@ Using **tracer particle simulations**, I want to answer the following questions:
 * Does the decelerating galactic bar affect the orbits of stars in these clusters?
 * Does the cluster survive the growth and deceleration of the bar?
   *  What percentage of stars remain in the cluster?
+  *  
 ## Data Collection
 The data was created using <tt>[`galpy`](http://github.com/jobovy/galpy)</tt>. The data consists of the Cartesian and cylindrical coordinates and their respective velocities of each particle in the cluster.
 * Cartesian coordinate (x, y, z)
@@ -22,8 +23,25 @@ The data was created using <tt>[`galpy`](http://github.com/jobovy/galpy)</tt>. T
 * Cylindrical coodinate (R, $\phi$, z)
 * Cylindrical velocity (v<sub>R</sub>, v<sub>$\phi$</sub>, v<sub>z</sub>)
 
-The Jupyter notebook called [McAuley_Run.ipynb](https://github.com/oliviamcauley/Bar_Surfing/blob/45c5897bb3743ddbf32652d97a424be89b58d2a9/Cluster_IC/McAuley_Run_IC.ipynb) in the 'McAuley_ClusterIC' folder gives the code that will produce the initial conditions (abbreviated as IC).
+**Steps to obtaining data for initial conditions**
+* Step 1: Generate the data
+* Step 2: Integrate the data
+* Step 3: Save the data
+Creating the initial conditions following the steps above can be found in the Jupyter notebook called [McAuley_Run.ipynb](https://github.com/oliviamcauley/Bar_Surfing/blob/45c5897bb3743ddbf32652d97a424be89b58d2a9/Cluster_IC/McAuley_Run_IC.ipynb) that is located in the *Cluster_IC* folder.
+
+**Stepts to obtaining data for the growing bar simulations** <br />
+*This contains the M, MP, MB, and MBP simulations*
+* Step 1: Generate the data
+* Step 2: Integrate the data
+* Step 3: Save the data
+
+**Stepts to obtaining data for the growing and decelerating bar simulations** <br />
+*This contains the MS and MSP simulations*
+* Step 1: Generate the data
+* Step 2: Integrate the data
+* Step 3: Save the data
 ## Modeling Approach
+
 
 ## Conclusions and Future Directions
 
