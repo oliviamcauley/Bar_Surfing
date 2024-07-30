@@ -22,7 +22,7 @@ The data was created using <tt>[`galpy`](http://github.com/jobovy/galpy)</tt>. T
 * Cylindrical coodinate (R, $\phi$, z)
 * Cylindrical velocity (v<sub>R</sub>, v<sub>$\phi$</sub>, v<sub>z</sub>)
 
-The Jupyter notebook called McAuley_Run.ipynb in the 'McAuley_ClusterIC' folder gives the code that will produce the initial conditions (abbreviated as IC).
+The Jupyter notebook called [McAuley_Run.ipynb](https://github.com/oliviamcauley/Bar_Surfing/blob/45c5897bb3743ddbf32652d97a424be89b58d2a9/Cluster_IC/McAuley_Run_IC.ipynb) in the 'McAuley_ClusterIC' folder gives the code that will produce the initial conditions (abbreviated as IC).
 ## Modeling Approach
 
 ## Conclusions and Future Directions
