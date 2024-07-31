@@ -1,5 +1,5 @@
 # Bar Surfing
-This project used test particle simulations to understand if a cluster can survive being at a stable Lagrange point in the rotating frame as it moves outward towards the solar circle.
+This project used test particle simulations to understand if a cluster can survive being at a stable point as the stable point moves outward towards the solar circle due to a decelrating bar.
 
 # Table of Contents
 1. [Introduction](#Introduction)
@@ -50,10 +50,17 @@ Following the steps above, run the the Jupyter notebook called [McAuley_Run.ipyn
 * Step 4: Save the data
 
 ## Simulations
-There are 6 simulations that I created based on getting inital conditions from a distribution function. The cluster, created using initial conditions, was placed in a disk galaxy where it sheared. The cluster was put in a disk with a Plummer potential to increase the number of particles staying with the 95th percentile radius of the cluster. The third simulation consisted of placing the cluster in a barred disk galaxy where the cluster sheared a little, but was still held togetther. 
+There are 6 simulations that I created based on getting inital conditions from a distribution function and placing the cluster at the stable point in the barred disk. The cluster was placed in 6 different conditions. The conditions and results were:
+* A disk galaxy, created using an underlying Milky Way potential, where it sheared.
+* A disk galaxy with a Plummer potential that increased the number of particles that stayed within the 95th percentile radius of the cluster.
+* A growing barred disk galaxy where the cluster sheared a little, but was still held togetther.
+* A growing barred disk galaxy with a Plummer potential where the cluster was held tight together with leading and trailing arms.
+* A growing and slowing barred disk galaxy where the orbit of the stars moved outward for a couple million years before leaving the stable region and shearing.
+* A growing and slowing barred disk galaxy with a Plummer potential where the cluster was held together with leading and trailing arms after leaving the stable region.
 
 
 ## Conclusions and Future Directions
+This study found that the cluster was able to surf the bar. The decelerating bar moved the stellar orbits residing at this stable region radially outward. I focused on creating 6 simulations where the cluster interacted with different potentials in order to view how the stellar orbits behaved in these different environments.  
 
 ## Description of Repository
 This repository consists of the *Cluster_IC* folder which creates the initial conditions for the simulations and the *Slowing-Bar* folder which is the prescription we use to decelerate the growing bar.
