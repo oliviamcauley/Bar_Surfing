@@ -4,7 +4,7 @@ This project used test particle simulations to understand if a cluster can survi
 # Table of Contents
 1. [Introduction](#Introduction)
 2. [Data Collection](#Data-Collection)
-3. [Modeling Approach](#Modeling-Approach)
+3. [Simulations](#Simulations)
 4. [Conclusions and Future Directions](#Conclusions-and-Future-Directions)
 5. [Description of Repository](#Description-of-Repository)
 6. [Movies](#Movies)
@@ -48,7 +48,9 @@ Following the steps above, run the the Jupyter notebook called [McAuley_Run.ipyn
 * Step 2: Define appropriate timestep
 * Step 3: Integrate the data
 * Step 4: Save the data
-## Modeling Approach
+
+## Simulations
+There are 6 simulations that I created based on getting inital conditions from a distribution function. The cluster, created using initial conditions, was placed in a disk galaxy where it sheared. The cluster was put in a disk with a Plummer potential to increase the number of particles staying with the 95th percentile radius of the cluster. The third simulation consisted of placing the cluster in a barred disk galaxy where the cluster sheared a little, but was still held togetther. 
 
 
 ## Conclusions and Future Directions
