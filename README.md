@@ -1,5 +1,8 @@
 # Bar Surfing
-This project used test particle simulations to understand if a cluster can survive being at a stable point as the stable point moves outward towards the solar circle due to a decelrating bar.
+Bars are non-axisymmetric perturbations drivers of changes in the shape of isolated galaxies over time.
+
+The goal of this project is to use test particle simulations[^1] to understand if a cluster can survive being at a stable point as the stable point moves outward towards the solar circle due to a decelrating bar.
+[^1]: A type of simulation where particles interact with the potential(s) imposed on them.
 
 # Table of Contents
 1. [Introduction](#Introduction)
@@ -10,7 +13,7 @@ This project used test particle simulations to understand if a cluster can survi
 6. [Movies](#Movies)
 
 ## Introduction
-Star clusters are classified as either open or globular clusters. The stars in these clusters have similar chemical components presumably due to the stars being born from the fragments of the same molecular cloud (Harris & Pudritz, 1994). The mass of clusters decrease over time due to evaporation (Binney & Tremaine, 2008). 
+Star clusters are classified as either open or globular clusters. The stars in these clusters have similar chemical components presumably due to the stars being born from the fragments of the same molecular cloud (Harris & Pudritz, 1994). The mass of clusters decrease over time due to evaporation (Binney & Tremaine, 2008).
 
 Using **tracer particle simulations**, I want to answer the following questions:
 * Does the decelerating galactic bar affect the orbits of stars in these clusters?
@@ -51,22 +54,21 @@ Following the steps above, run the the Jupyter notebook called [McAuley_Run.ipyn
 
 ## Simulations
 There are 6 simulations that I created based on getting inital conditions from a distribution function and placing the cluster at the stable point in the barred disk. The cluster was placed in 6 different conditions. The conditions and results were:
-* A disk galaxy, created using an underlying Milky Way potential, where it sheared.
-* A disk galaxy with a Plummer potential that increased the number of particles that stayed within the 95th percentile radius of the cluster.
-* A growing barred disk galaxy where the cluster sheared a little, but was still held togetther.
-* A growing barred disk galaxy with a Plummer potential where the cluster was held tight together with leading and trailing arms.
-* A growing and slowing barred disk galaxy where the orbit of the stars moved outward for a couple million years before leaving the stable region and shearing.
-* A growing and slowing barred disk galaxy with a Plummer potential where the cluster was held together with leading and trailing arms after leaving the stable region.
-
+* A disk galaxy, created using an underlying Milky Way potential, where it sheared. This is dubbed the **M simulation**.
+* A disk galaxy with a Plummer potential that increased the number of particles that stayed within the 95th percentile radius of the cluster. This is called the **MP simulation**.
+* A growing barred disk galaxy where the cluster sheared a little, but was still held together. This is the **MB simulation**.
+* A growing barred disk galaxy with a Plummer potential where the cluster was held tight together with leading and trailing arms. This is named the **MBP simulation**.
+* A growing and slowing barred disk galaxy where the orbit of the stars moved outward for a couple million years before leaving the stable region and shearing. This is labeled the **MS simulation**.
+* A growing and slowing barred disk galaxy with a Plummer potential where the cluster was held together with leading and trailing arms after leaving the stable region. This is the **MSP simulation**.
 
 ## Conclusions and Future Directions
-This study found that the cluster was able to surf the bar. The decelerating bar moved the stellar orbits residing at this stable region radially outward. I focused on creating 6 simulations where the cluster interacted with different potentials in order to view how the stellar orbits behaved in these different environments.  
+This study found that the cluster was able to surf the bar. The decelerating bar moved the stellar orbits residing at this stable region radially outward. I focused on creating 6 simulations where the cluster interacted with different potentials. This allowed me to view the behavior of the stellar orbits in these different environments.  
 
 ## Description of Repository
 This repository consists of the *Cluster_IC* folder which creates the initial conditions for the simulations and the *Slowing-Bar* folder which is the prescription we use to decelerate the growing bar.
 
 ## Movies
-The animation for a cluster shifted to be at the L4/5 (if a bar pertubation was to be added) integrated over the:
+The animation for a cluster shifted to be at the stable point (if a bar pertubation was to be added) integrated over the:
 
 **Milky Way potential (M simulation):**
 
