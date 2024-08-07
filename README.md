@@ -2,6 +2,9 @@
 Bars are non-axisymmetric perturbations drivers of changes in the shape of isolated galaxies over time.
 
 The goal of this project is to use test particle simulations[^1] to understand if a cluster can survive being at a stable point as the stable point moves outward towards the solar circle due to a decelrating bar.
+
+galpy: A Python Library for Galactic Dynamics, Jo Bovy (2015), Astrophys. J. Supp., 216, 29 (arXiv/1412.3451)
+
 [^1]: A type of simulation where particles interact with the potential(s) imposed on them.
 
 # Table of Contents
