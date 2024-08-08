@@ -10,10 +10,11 @@ The goal of this project is to use test particle simulations[^1] to understand i
 # Table of Contents
 1. [Introduction](#Introduction)
 2. [Data Collection](#Data-Collection)
-3. [Simulations](#Simulations)
-4. [Conclusions and Future Directions](#Conclusions-and-Future-Directions)
-5. [Description of Repository](#Description-of-Repository)
-6. [Movies](#Movies)
+3. [Data Analysis](#Data-Analysis)
+4. [Simulations](#Simulations)
+5. [Conclusions and Future Directions](#Conclusions-and-Future-Directions)
+6. [Description of Repository](#Description-of-Repository)
+7. [Movies](#Movies)
 
 ## Introduction
 Star clusters are classified as either open or globular clusters. The stars in these clusters have similar chemical components presumably due to the stars being born from the fragments of the same molecular cloud (Harris & Pudritz, 1994). The mass of clusters decrease over time due to evaporation (Binney & Tremaine, 2008).
@@ -56,6 +57,12 @@ Following the steps above, run the the Jupyter notebook called [McAuley_Run.ipyn
 * Step 2: Define appropriate timestep
 * Step 3: Integrate the data
 * Step 4: Save the data
+
+## Data Analysis
+The data shows that the Plummer potential is the key factor holding the cluster together. The bar gives the cluster an additional binding factor. The cluster retains 95% of its star members in the MBP and MSP simulations.
+![bound_fraction_GrowBar_image](https://github.com/user-attachments/assets/ea375403-d3fe-45f2-96fc-ee305c682940)
+![bound_faction_SB_image](https://github.com/user-attachments/assets/3c153eb2-e4f6-461b-a49f-80feb94d89fc)
+
 
 ## Simulations
 There are 6 simulations that I created based on getting inital conditions from a distribution function and placing the cluster at the stable point in the barred disk. The cluster was placed in 6 different conditions. The conditions and results were:
