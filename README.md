@@ -60,8 +60,8 @@ Following the steps above, run the the Jupyter notebook called [McAuley_Run.ipyn
 >[!Warning]
 > Make sure you are integrating over the correct potential and that the correct folders are in the correct directory.
 * Step 8: [Shift](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/ShiftClusterOrbit.ipynb) cluster to be at the stable point
-* [Integrate](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/IntegrateClusterOrbit.ipynb) the orbit of the shifted cluster
-* Step 11: Save the data
+* Step 9: [Integrate](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/IntegrateClusterOrbit.ipynb) the orbit of the shifted cluster
+* Step 10: Save the data
 
 Following the steps above, run the the Jupyter notebook called [Run_IntegrateClusterDifferentPotentials.ipynb](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/Run_IntegrateClusterDifferentPotentials.ipynb) in the *Growing-Bar* folder to create the M, MP, MB, and MBP simulations.
 
