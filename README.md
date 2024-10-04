@@ -45,12 +45,25 @@ The data was created using <tt>[`galpy`](http://github.com/jobovy/galpy)</tt> v.
 Following the steps above, run the the Jupyter notebook called [McAuley_Run.ipynb](https://github.com/oliviamcauley/Bar_Surfing/blob/45c5897bb3743ddbf32652d97a424be89b58d2a9/Cluster_IC/McAuley_Run_IC.ipynb) in the *Cluster_IC* folder to create the initial conditions of the cluster.
 
 **Steps to obtain data for the growing bar simulations:** <br />
-*This contains the M, MP, MB, and MBP simulations*
+> [!NOTE]  
+> *This contains the M, MP, MB, and MBP simulations*
 * Step 1: Generate the data
-  * [Import]() necessary packages
-* Step 2: Define appropriate timestep
-* Step 3: Integrate the data
-* Step 4: Save the data
+  * [Import](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/McAuley_Imports.ipynb) necessary packages
+* Step 2: Set up [Growing Bar](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/McAuley_DehnenBar.ipynb)
+* Step 3: Upload [initial conditions](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/ICs_File.ipynb) file &mdash; You just created a cluster!
+> [!Warning]
+> Make sure you input the correct path directory since the saved data from Step 3 of **Steps to obtain data for initial conditions** is being uploaded here.
+* Step 4: Define appropriate [timestep](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/Timescale_Calculator.ipynb)
+* Step 5: Find [stable point](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/FindL5.ipynb)
+* Step 6: Define single particle that [Plummer potential](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/MovePlummer.ipynb) will follow
+* Step 7: [Integrate](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/IntegrateSingleParticle.ipynb) orbit of the single particle
+>[!Warning]
+> Make sure you are integrating over the correct potential and that the correct folders are in the correct directory.
+* Step 8: [Shift](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/ShiftClusterOrbit.ipynb) cluster to be at the stable point
+* [Integrate](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/IntegrateClusterOrbit.ipynb) the orbit of the shifted cluster
+* Step 11: Save the data
+
+Following the steps above, run the the Jupyter notebook called [Run_IntegrateClusterDifferentPotentials.ipynb](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/Run_IntegrateClusterDifferentPotentials.ipynb) in the *Growing-Bar* folder to create the M, MP, MB, and MBP simulations.
 
 **Steps to obtain data for the growing and decelerating bar simulations:** <br />
 *This contains the MS and MSP simulations*
