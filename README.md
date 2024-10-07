@@ -73,6 +73,7 @@ Following the steps above, run the the Jupyter notebook called [Run_IntegrateClu
 * Step 4: Save the data
 
 ## Data Analysis
+The following plots show the fraction of the number of bound stars in the cluster as a function of time in Gyr (1 Gyr = 1 billion years) for the (left/top on mobile) M; MP; MB; and MBP, and (right/bottom on mobile) M; MP; MS; and MSP simulations. <br /> The gray vertical line denotes the time that the bar is fully grown. 
 The data shows that the Plummer potential is the key factor holding the cluster together. Including a bar gives the cluster an additional binding factor. It was found that the cluster retains 95% of its star members in the MBP and MSP simulations. <br />
 ![bound_fraction_GrowBar_image](https://github.com/user-attachments/assets/ea375403-d3fe-45f2-96fc-ee305c682940)
 ![bound_faction_SB_image](https://github.com/user-attachments/assets/3c153eb2-e4f6-461b-a49f-80feb94d89fc)
