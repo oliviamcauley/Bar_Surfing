@@ -89,10 +89,10 @@ There are 6 simulations that I created based on getting inital conditions from a
 * A growing and slowing barred disk galaxy with a Plummer potential where the cluster was held together with leading and trailing arms after leaving the stable region. This is the **MSP simulation**.
 
 ## Conclusions and Future Directions
-This study found that the cluster was able to surf the bar. The decelerating bar moved the stellar orbits residing at this stable region radially outward. I focused on creating 6 simulations where the cluster interacted with different potentials. This allowed me to view the behavior of the stellar orbits in these different environments.  
+This study found that the cluster was able to surf the bar. The decelerating bar was able to move the stellar orbits residing at this stable region radially outward for an extended time. The focus of this project was to create 6 simulations where the cluster interacted with different potentials. The behavior of the stellar orbits in these different environments were recorded via movies with data analysis that supported what was seen in the movies. Next steps would be adding a vertical component to the position of the cluster to observe if the cluster could exhibit a tighter orbit about the stable point. 
 
 ## Description of Repository
-This repository consists of the *Cluster_IC* folder which creates the initial conditions for the simulations and the *Slowing-Bar* folder which is the prescription we use to decelerate the growing bar.
+This repository consists of the *Cluster_IC* folder which creates the initial conditions for the simulations, the *Growing-Bar* folder which creates the growing bar simulations, and the *Slowing-Bar* folder which is the prescription we use to decelerate the growing bar.
 
 ## Movies
 The animation for a cluster shifted to be at the stable point (if a bar pertubation was to be added) integrated over the:
