@@ -38,11 +38,12 @@ The data was created using <tt>[`galpy`](http://github.com/jobovy/galpy)</tt> v.
 * Step 1: Generate the data
   * [Import](https://github.com/oliviamcauley/Bar_Surfing/blob/8029fd29a6e5ee13e61e3ac0c9f9f7e2848357f8/Cluster_IC/McAuley_Imports.ipynb) necessary packages
   * Add [scaling factors](https://github.com/oliviamcauley/Bar_Surfing/blob/8029fd29a6e5ee13e61e3ac0c9f9f7e2848357f8/Cluster_IC/McAuley_ScaleFactors.ipynb) that will convert galpy's internal units to physical units and vice versa
-  * Create sample of particles that will be the cluster using the [Plummer potential](https://github.com/oliviamcauley/Bar_Surfing/blob/8029fd29a6e5ee13e61e3ac0c9f9f7e2848357f8/Cluster_IC/McAuley_PlummerPotential.ipynb)
+  * Create sample of particles that will be the cluster[^3] using the [Plummer potential](https://github.com/oliviamcauley/Bar_Surfing/blob/8029fd29a6e5ee13e61e3ac0c9f9f7e2848357f8/Cluster_IC/McAuley_PlummerPotential.ipynb)
 * Step 2: [Integrate](https://github.com/oliviamcauley/Bar_Surfing/blob/8029fd29a6e5ee13e61e3ac0c9f9f7e2848357f8/Cluster_IC/McAuley_IntegrateIC.ipynb) the data
 * Step 3: [Save](https://github.com/oliviamcauley/Bar_Surfing/blob/8029fd29a6e5ee13e61e3ac0c9f9f7e2848357f8/Cluster_IC/McAuley_SaveOrbitsIC.ipynb) the data
-
 Following the steps above, run the the Jupyter notebook called [McAuley_Run.ipynb](https://github.com/oliviamcauley/Bar_Surfing/blob/45c5897bb3743ddbf32652d97a424be89b58d2a9/Cluster_IC/McAuley_Run_IC.ipynb) in the *Cluster_IC* folder to create the initial conditions of the cluster.
+
+[^3]: See Appendix A in PhD Dissertation for derivation of the scaling Plummer parameter.
 
 **Steps to obtain data for the growing bar simulations:** <br />
 > [!NOTE]  
