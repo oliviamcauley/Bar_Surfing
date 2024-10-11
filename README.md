@@ -1,7 +1,9 @@
 # Bar Surfing
 Bars are non-axisymmetric perturbations drivers of changes in the shape of isolated galaxies over time.
 
-The goal of this project is to use test particle simulations[^1] to understand if a cluster can survive being at a stable point in a barred galaxy as the stable point moves outward towards the solar circle[^2] due to a decelerating bar.
+The goal of this project is to use test particle simulations[^1] to understand if a cluster can survive being at a stable point in a barred galaxy as the stable point moves outward towards the solar circle[^2] due to a decelerating bar. 
+
+The wrapper used to slow the bar was created by [Dr. Kathryne "Kate" Daniel](https://github.com/katedaniel/Slowing-Bar).
 
 [galpy: A Python Library for Galactic Dynamics, Jo Bovy (2015), Astrophys. J. Supp., 216, 29 (arXiv/1412.3451)](https://iopscience.iop.org/article/10.1088/0067-0049/216/2/29/pdf)
 
