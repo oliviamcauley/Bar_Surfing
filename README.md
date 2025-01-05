@@ -78,7 +78,6 @@ Following the steps above, run the the Jupyter notebook called [Run_IntegrateClu
 ## Data Analysis
 The following plots show the fraction of the number of bound stars in the cluster as a function of time in Gyr (1 Gyr = 1 billion years) for the (left/top on mobile) M; MP; MB; and MBP, and (right/bottom on mobile) M; MP; MS; and MSP simulations. <br /> The gray vertical line denotes the time that the bar is fully grown. 
 The data shows that the Plummer potential is the key factor holding the cluster together. It was found that the cluster retains 95% of its star members in the MBP and MSP simulations. The oscillations in the figures below of the **MB and **MS simulations are due to the stars not being bound by a cluster potential; however, as seen in the [movies](#Movies), the cluster in the **MB and **MS simulations are expanding and contracting. Even without the presence of a Plummer potential to hold the cluster together, the cluster contracts periodically when the shear is minimized.
-![image](https://github.com/user-attachments/assets/c996081d-d48b-4300-bf3b-722ea7052496)
 <br />
 ![bound_fraction_GrowBar_image](https://github.com/user-attachments/assets/ea375403-d3fe-45f2-96fc-ee305c682940)
 ![bound_faction_SB_image](https://github.com/user-attachments/assets/3c153eb2-e4f6-461b-a49f-80feb94d89fc)
