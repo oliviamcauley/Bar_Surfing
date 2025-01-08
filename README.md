@@ -5,7 +5,7 @@ The goal of this project is to use test particle simulations[^1] to understand i
 
 The wrapper used to slow the bar was created by [Dr. Kathryne "Kate" Daniel](https://github.com/katedaniel/Slowing-Bar).
 
-[galpy: A Python Library for Galactic Dynamics, Jo Bovy (2015), Astrophys. J. Supp., 216, 29 (arXiv/1412.3451)](https://iopscience.iop.org/article/10.1088/0067-0049/216/2/29/pdf)
+This work used the galactic dynamics Python package, [galpy: A Python Library for Galactic Dynamics, Jo Bovy (2015), Astrophys. J. Supp., 216, 29 (arXiv/1412.3451)](https://iopscience.iop.org/article/10.1088/0067-0049/216/2/29/pdf).
 
 [^1]: A type of simulation where particles interact with the potential(s) imposed on them.
 [^2]: The radius at which the Sun orbits around the center of the galaxy.
