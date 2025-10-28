@@ -76,21 +76,25 @@ Following the steps above, run the the Jupyter notebook called [Run_IntegrateClu
 * Step 4: Save the data
 
 ## Data Analysis
-The following plots show the fraction of the number of bound stars in the cluster as a function of time in Gyr (1 Gyr = 1 billion years) for the (left/top on mobile) M; MP; MB; and MBP, and (right/bottom on mobile) M; MP; MS; and MSP simulations. <br /> The gray vertical line denotes the time that the bar is fully grown. 
+The following plots show the fraction of the number of bound stars in the cluster as a function of time in Gyr (1 Gyr = 1 billion years) for the M, MP, MB, and MBP; and M, MP, MS, and MSP simulations. <br /> The gray vertical line denotes the time that the bar is fully grown. 
 The data shows that the Plummer potential is the key factor holding the cluster together. It was found that the cluster retains 95% of its star members in the MBP and MSP simulations. The oscillations in the figures below of the **MB and **MS simulations are due to the stars not being bound by a cluster potential; however, as seen in the [movies](#Movies), the cluster in the **MB and **MS simulations are expanding and contracting. Even without the presence of a Plummer potential to hold the cluster together, the cluster contracts periodically when the shear is minimized.
 <br />
 ![bound_fraction_GrowBar_image](https://github.com/user-attachments/assets/ea375403-d3fe-45f2-96fc-ee305c682940)
 ![bound_faction_SB_image](https://github.com/user-attachments/assets/3c153eb2-e4f6-461b-a49f-80feb94d89fc)
 
+The following plot shows the orbit of the cluster's center in the xy-plane (in units of 8 kpc) integrated over 8 Gyr; the black star denotes the initial position of the cluster's center placed at the stable Lagrange point. This plot shows that the **stable Lagrange point is able to preserve the orbit of a cluster for an extended period of time**.
+<br />
+<img width="636" height="482" alt="Screenshot 2025-08-07 at 4 21 05 PM" src="https://github.com/user-attachments/assets/8635403b-8704-4ac0-bb82-54384a5e1dc1" />
+
 
 ## Simulations
 There are 6 simulations that I created based on getting inital conditions from a distribution function and placing the cluster at the stable point in the barred disk. The cluster was placed in 6 different conditions. The conditions and results were:
-* A disk galaxy, created using an underlying Milky Way potential, where the cluster sheared. This is dubbed the **M simulation**.
-* A disk galaxy with a Plummer potential that increased the number of particles that stayed within the 95th percentile radius of the cluster. This is called the **MP simulation**.
-* A growing barred disk galaxy where the cluster sheared a little, but was still held together. This is the **MB simulation**.
-* A growing barred disk galaxy with a Plummer potential where the cluster was held tight together with leading and trailing arms. This is named the **MBP simulation**.
-* A growing and slowing barred disk galaxy where the orbit of the stars moved outward for a couple million years before leaving the stable region and shearing. This is labeled the **MS simulation**.
-* A growing and slowing barred disk galaxy with a Plummer potential where the cluster was held together with leading and trailing arms after leaving the stable region. This is the **MSP simulation**.
+* A **disk galaxy**, created using an underlying Milky Way potential, where the cluster sheared. This is dubbed the **M simulation**.
+* A **disk galaxy with a Plummer potential** that increased the number of particles that stayed within the 95th percentile radius of the cluster. This is called the **MP simulation**.
+* A **growing barred disk galaxy** where the cluster sheared a little, but was still held together. This is the **MB simulation**.
+* A **growing barred disk galaxy with a Plummer potential** where the cluster was held tight together with leading and trailing arms. This is named the **MBP simulation**.
+* A **growing and slowing barred disk galaxy** where the orbit of the stars moved outward for a couple million years before leaving the stable region and shearing. This is labeled the **MS simulation**.
+* A **growing and slowing barred disk galaxy with a Plummer potential** where the cluster was held together with leading and trailing arms after leaving the stable region. This is the **MSP simulation**.
 
 ## Conclusions and Future Directions
 This study found that the cluster was able to surf the bar. The decelerating bar was able to move the stellar orbits residing at this stable region radially outward for an extended time. The focus of this project was to create 6 simulations where the cluster interacted with different potentials. The behavior of the stellar orbits in these different environments were recorded via movies with data analysis that supported what was seen in the movies. Next steps would be adding a vertical component to the position of the cluster to observe if the cluster could exhibit a tighter orbit about the stable point. 
