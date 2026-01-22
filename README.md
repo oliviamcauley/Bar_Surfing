@@ -71,6 +71,8 @@ Following the steps above, run the the Jupyter notebook called [Run_IntegrateClu
 
 **Steps to obtain data for the growing and decelerating bar simulations:** <br />
 *This contains the MS and MSP simulations*
+>[!Warning]
+> May need access to High Performance Computing (HPC) system.
 * Step 1: Generate the data
 * Step 2: Define appropriate timestep
 * Step 3: Integrate the data
