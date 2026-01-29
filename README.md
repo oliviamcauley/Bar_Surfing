@@ -12,9 +12,9 @@ This work used the galactic dynamics Python package, [galpy: A Python Library fo
 
 # Table of Contents
 1. [Introduction](#Introduction)
-2. [Data Collection](#Data-Collection)
-3. [Data Analysis](#Data-Analysis)
-4. [Simulations](#Simulations)
+2. [Simulations](#Simulations)
+3. [Data Collection](#Data-Collection)
+4. [Data Analysis](#Data-Analysis)
 5. [Conclusions and Future Directions](#Conclusions-and-Future-Directions)
 6. [Description of Repository](#Description-of-Repository)
 7. [Movies](#Movies)
@@ -26,6 +26,15 @@ Using **tracer particle simulations**, I want to answer the following questions:
 * Does the decelerating galactic bar affect the orbits of stars in these clusters?
 * Does the cluster survive the growth and deceleration of the bar?
   *  What percentage of stars remain in the cluster?
+
+## Simulations
+There are 6 simulations that I created based on getting inital conditions from a distribution function and placing the cluster at the stable point in the barred disk. The cluster was placed in 6 different conditions. The conditions and results were:
+* ***M simulation***: a **disk galaxy**, created using an underlying Milky Way potential, where the cluster sheared. 
+* ***MP simulation***: a **disk galaxy with a Plummer potential** that increased the number of particles that stayed within the 95th percentile radius of the cluster.
+* ***MB simulation***: a **growing barred disk galaxy** where the cluster sheared a little, but was still held together.
+* ***MBP simulation***: a **growing barred disk galaxy with a Plummer potential** where the cluster was held tight together with leading and trailing arms.
+* ***MS simulation***: a **growing and slowing barred disk galaxy** where the orbit of the stars moved outward for a couple million years before leaving the stable region and shearing.
+* ***MSP simulation***: a **growing and slowing barred disk galaxy with a Plummer potential** where the cluster was held together with leading and trailing arms after leaving the stable region.
 
 ## Data Collection
 The data was created using <tt>[`galpy`](http://github.com/jobovy/galpy)</tt> v.1.8.1.dev0. The data consists of the phasespace &mdash; the Cartesian and cylindrical coordinates and their respective velocities &mdash; of each particle in the cluster.
@@ -88,16 +97,6 @@ The data shows that the Plummer potential is the key factor holding the cluster 
 The following plot shows the orbit of the cluster's center in the xy-plane (in units of 8 kpc) integrated over 8 Gyr; the black star denotes the initial position of the cluster's center placed at the stable Lagrange point. This plot shows that the **stable Lagrange point is able to preserve the cluster orbits for an extended period of time as the stable point moves outward** in a barred disk galaxy as the bar grows and slows down.
 <br />
 <img width="636" height="482" alt="Screenshot 2025-08-07 at 4 21 05 PM" src="https://github.com/user-attachments/assets/8635403b-8704-4ac0-bb82-54384a5e1dc1" />
-
-
-## Simulations
-There are 6 simulations that I created based on getting inital conditions from a distribution function and placing the cluster at the stable point in the barred disk. The cluster was placed in 6 different conditions. The conditions and results were:
-* A **disk galaxy**, created using an underlying Milky Way potential, where the cluster sheared. This is dubbed the **M simulation**.
-* A **disk galaxy with a Plummer potential** that increased the number of particles that stayed within the 95th percentile radius of the cluster. This is called the **MP simulation**.
-* A **growing barred disk galaxy** where the cluster sheared a little, but was still held together. This is the **MB simulation**.
-* A **growing barred disk galaxy with a Plummer potential** where the cluster was held tight together with leading and trailing arms. This is named the **MBP simulation**.
-* A **growing and slowing barred disk galaxy** where the orbit of the stars moved outward for a couple million years before leaving the stable region and shearing. This is labeled the **MS simulation**.
-* A **growing and slowing barred disk galaxy with a Plummer potential** where the cluster was held together with leading and trailing arms after leaving the stable region. This is the **MSP simulation**.
 
 ## Conclusions and Future Directions
 This study found that the cluster was able to surf the bar. The decelerating bar was able to move the stellar orbits residing at this stable region radially outward for an extended time. The focus of this project was to create 6 simulations where the cluster interacted with different potentials. The behavior of the stellar orbits in these different environments were recorded via movies with data analysis that supported what was seen in the movies. Next steps would be adding a vertical component to the position of the cluster to observe if the cluster could exhibit a tighter orbit about the stable point. 
