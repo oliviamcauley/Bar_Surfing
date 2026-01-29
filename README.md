@@ -7,8 +7,8 @@ The wrapper used to slow the bar was created by [Dr. Kathryne "Kate" Daniel](htt
 
 This work used the galactic dynamics Python package, [galpy: A Python Library for Galactic Dynamics, Jo Bovy (2015), Astrophys. J. Supp., 216, 29 (arXiv/1412.3451)](https://iopscience.iop.org/article/10.1088/0067-0049/216/2/29/pdf).
 
-[^1]: A type of simulation where particles interact with the potential(s) imposed on them.
-[^2]: The radius at which the Sun orbits around the center of the galaxy.
+[^1]: Test particle simulation is a type of simulation where particles interact with the potential(s) imposed on them.
+[^2]: Solar circle is the radius at which the Sun orbits around the center of the galaxy.
 
 # Table of Contents
 1. [Introduction](#Introduction)
@@ -55,7 +55,7 @@ The data was created using <tt>[`galpy`](http://github.com/jobovy/galpy)</tt> v.
 
 Following the steps above, run the the Jupyter notebook called [McAuley_Run.ipynb](https://github.com/oliviamcauley/Bar_Surfing/blob/45c5897bb3743ddbf32652d97a424be89b58d2a9/Cluster_IC/McAuley_Run_IC.ipynb) in the *Cluster_IC* folder to create the initial conditions of the cluster.
 
-[^3]: See Appendix A in PhD Dissertation for derivation of the scaling Plummer parameter.
+[^3]: See Appendix A in my PhD Dissertation for derivation of the scaling Plummer parameter.
 
 **Steps to obtain data for the growing bar simulations:** <br />
 > [!NOTE]  
