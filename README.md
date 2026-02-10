@@ -60,6 +60,9 @@ Following the steps above, run the the Jupyter notebook called [McAuley_Run.ipyn
 **Steps to obtain data for the growing bar simulations:** <br />
 > [!NOTE]  
 > *This contains the M, MP, MB, and MBP simulations*
+
+> [!IMPORTANT]
+> ***The Dehnen bar rotates clockwise***
 * Step 1: Generate the data
   * [Import](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/McAuley_Imports.ipynb) necessary packages
 * Step 2: Set up [Growing Bar](https://github.com/oliviamcauley/Bar_Surfing/blob/e696f1c08b686e9fa6dde2825e7f9b9b7d8a8349/Growing-Bar/McAuley_DehnenBar.ipynb)
