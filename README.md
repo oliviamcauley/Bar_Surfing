@@ -89,12 +89,12 @@ Following the steps above, run the the Jupyter notebook called [Run_IntegrateClu
 
 ## Data Analysis
 The following plots show the fraction of the number of bound stars in the cluster as a function of time in Gyr (1 Gyr = 1 billion years) for the M, MP, MB, and MBP; and M, MP, MS, and MSP simulations. <br /> The gray vertical line denotes the time that the bar is fully grown. 
-The data shows that the Plummer potential is the key factor holding the cluster together. It was found that the cluster retains 95% of its star members in the MBP and MSP simulations. The oscillations in the figures below of the **MB and **MS simulations are due to the stars not being bound by a cluster potential; however, as seen in the [movies](#Movies), the cluster in the **MB and **MS simulations are expanding and contracting. Even without the presence of a Plummer potential to hold the cluster together, the cluster contracts periodically when the shear is minimized.
+The data shows that the ***Plummer potential is the key factor holding the cluster together***. It was found that the cluster retains 95% of its star members in the MBP and MSP simulations. The oscillations in the figures below of the MB and MS simulations are due to the stars not being bound by a cluster potential; however, as seen in the [movies](#Movies), the cluster in the MB and MS simulations are expanding and contracting. Even without the presence of a Plummer potential to hold the cluster together, the cluster contracts periodically when the shear is minimized.
 <br />
 ![bound_fraction_GrowBar_image](https://github.com/user-attachments/assets/ea375403-d3fe-45f2-96fc-ee305c682940)
 ![bound_faction_SB_image](https://github.com/user-attachments/assets/3c153eb2-e4f6-461b-a49f-80feb94d89fc)
 
-The following plot shows the orbit of the cluster's center in the xy-plane (in units of 8 kpc) integrated over 8 Gyr; the black star denotes the initial position of the cluster's center placed at the stable Lagrange point[^4]. This plot shows that the **stable Lagrange point is able to preserve the cluster orbits for an extended period of time as the stable point moves outward** in a barred disk galaxy as the bar grows and slows down.
+The following plot shows the orbit of the cluster's center in the xy-plane (in units of 8 kpc) integrated over 8 Gyr; the black star denotes the initial position of the cluster's center placed at the stable Lagrange point[^4]. This plot shows that the ***stable Lagrange point is able to preserve the cluster orbits for an extended period of time as the stable point moves outward*** in a barred disk galaxy as the bar grows and slows down.
 <br />
 <img width="636" height="482" alt="Screenshot 2025-08-07 at 4 21 05 PM" src="https://github.com/user-attachments/assets/8635403b-8704-4ac0-bb82-54384a5e1dc1" />
 
